@@ -1,16 +1,18 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import {Navbar, NavbarBrand} from 'reactstrap';
+import Menu from './components/MenuComponent';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar dark color="primary">
+    <div>
+      <Navbar dark color="dark">
         <div className="container">
-          <Navbar href="/">Dashboard</Navbar>
+          <Navbar href="/">Ristorante Con Fusion</Navbar>
         </div>
       </Navbar>
+      <Menu />
     </div>
   );
 }
